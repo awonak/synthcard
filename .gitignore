@@ -29,10 +29,8 @@ sc_awonak/.DS_Store
 *.zip
 sc_awonak/\#auto_saved_files\#
 
-
 # Various config and backup
 netlist.ipc
-ibom.config.ini
 
 # TODO: remove temp panel art
 Demo.pretty
