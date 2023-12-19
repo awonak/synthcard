@@ -1780,7 +1780,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 88.9 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 203acfd3-0230-4032-b9f9-0df574903694)
     (property "Reference" "H3" (at 91.44 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1857,7 +1857,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 114.3 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28fc8f1d-f40a-4aa5-ac85-1aa06b55f9e0)
-    (property "Reference" "J5" (at 113.665 92.2401 0)
+    (property "Reference" "J3" (at 113.665 92.2401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Analog Output" (at 113.665 94.1611 0)
@@ -1875,7 +1875,7 @@
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
-          (reference "J5") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2159,12 +2159,12 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 53.34 133.35 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 452ab85c-7004-4448-948f-67ace16c4865)
-    (property "Reference" "J2" (at 55.88 133.3499 0)
+    (property "Reference" "J4" (at 55.372 133.9763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (at 55.88 135.8899 0)
+    (property "Value" "Conn_01x02" (at 55.372 135.8973 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (at 53.34 133.35 0)
@@ -2178,7 +2178,7 @@
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2260,7 +2260,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 83.82 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 5258f80d-9e7e-4cfa-b47b-63ea5529ea1a)
     (property "Reference" "H2" (at 85.09 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2274,7 +2274,7 @@
     (property "Datasheet" "~" (at 83.82 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60fda5ff-e089-48c0-972d-8fa3a346a752))
+    (pin "1" (uuid bab28dbc-0d3f-447e-875a-b5c0e28a250c))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2605,7 +2605,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 114.3 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75190330-5c0d-4f22-9530-ce2a543efd05)
-    (property "Reference" "J3" (at 113.665 35.0901 0)
+    (property "Reference" "J1" (at 113.665 35.0901 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Analog Input" (at 113.665 37.0111 0)
@@ -2623,7 +2623,7 @@
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
-          (reference "J3") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 114.3 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82b7f61c-9e09-4ccc-9f5f-df951a2710a4)
-    (property "Reference" "J4" (at 113.665 63.0301 0)
+    (property "Reference" "J2" (at 113.665 63.0301 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital Input" (at 113.665 64.9511 0)
@@ -2726,7 +2726,7 @@
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2795,7 +2795,7 @@
     (property "Reference" "R14" (at 251.46 122.9741 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RLED" (at 251.46 124.8951 90)
+    (property "Value" "1K" (at 251.46 124.8951 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 251.46 128.778 90)
@@ -2819,12 +2819,12 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 53.34 148.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f58b070-d55d-4924-8dec-ab82d3dd5892)
-    (property "Reference" "J1" (at 55.88 148.5899 0)
+    (property "Reference" "J5" (at 55.372 149.2163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (at 55.88 151.1299 0)
+    (property "Value" "Conn_01x02" (at 55.372 151.1373 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (at 53.34 148.59 0)
@@ -2838,7 +2838,7 @@
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3102,7 +3102,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 88.9 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3f9e043-69e0-49e7-9348-fb5d96258bd2)
     (property "Reference" "H4" (at 91.44 152.3999 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3230,12 +3230,12 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 53.34 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b021b523-b46a-4ba3-81be-d6bcfb2aeb25)
-    (property "Reference" "J6" (at 55.88 166.3699 0)
+    (property "Reference" "J6" (at 55.372 166.9963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (at 55.88 168.9099 0)
+    (property "Value" "Conn_01x02" (at 55.372 168.9173 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (at 53.34 166.37 0)
@@ -3256,7 +3256,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 83.82 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b31b4dcb-4162-4a5e-a31f-6951992ac139)
     (property "Reference" "H1" (at 85.09 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3286,7 +3286,7 @@
     (property "Reference" "R13" (at 251.46 92.4941 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RLED" (at 251.46 94.4151 90)
+    (property "Value" "1K" (at 251.46 94.4151 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 251.46 98.298 90)
@@ -3712,7 +3712,7 @@
     (property "Reference" "R12" (at 251.46 65.8241 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RLED" (at 251.46 67.7451 90)
+    (property "Value" "1K" (at 251.46 67.7451 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 251.46 71.628 90)
@@ -3878,7 +3878,7 @@
     (property "Reference" "R11" (at 251.46 36.6141 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RLED" (at 251.46 38.5351 90)
+    (property "Value" "1K" (at 251.46 38.5351 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 251.46 42.418 90)
