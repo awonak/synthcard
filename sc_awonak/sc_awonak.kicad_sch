@@ -1198,13 +1198,14 @@
     )
   )
 
-  (junction (at 128.27 99.06) (diameter 0) (color 0 0 0 0)
+
+  (junction (at 119.38 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 088072af-5bdd-40a0-a44a-ca53c221668c)
   )
   (junction (at 128.27 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 1bdef7b6-f2d3-4cf7-a39c-3ca9032c81ef)
   )
-  (junction (at 139.7 99.06) (diameter 0) (color 0 0 0 0)
+  (junction (at 130.81 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 4e8ab309-a073-4a1c-a58a-9c5ce2ae0325)
   )
   (junction (at 142.24 41.91) (diameter 0) (color 0 0 0 0)
@@ -1225,7 +1226,7 @@
   (junction (at 83.82 157.48) (diameter 0) (color 0 0 0 0)
     (uuid a2b94282-d0c1-4f85-9fe6-8097f3bf3d1b)
   )
-  (junction (at 153.67 99.06) (diameter 0) (color 0 0 0 0)
+  (junction (at 144.78 99.06) (diameter 0) (color 0 0 0 0)
     (uuid a46c4220-24c3-4e40-88df-22c613deb695)
   )
   (junction (at 153.67 41.91) (diameter 0) (color 0 0 0 0)
@@ -1255,8 +1256,12 @@
   (no_connect (at 119.38 72.39) (uuid 593b389f-13c6-4503-a6a2-e44e6272abfd))
   (no_connect (at 36.83 73.66) (uuid 5afad78a-d06b-4453-b3b3-1bd1f3a0b215))
   (no_connect (at 119.38 44.45) (uuid 72751b9d-f717-42c2-bbae-b3f3387aad06))
-  (no_connect (at 119.38 101.6) (uuid de3d52c0-d329-45a7-80cd-2333cdc1b456))
+  (no_connect (at 154.94 101.6) (uuid dc45afe9-eec5-4b32-aac7-d572a87406a0))
 
+  (wire (pts (xy 111.76 99.06) (xy 119.38 99.06))
+    (stroke (width 0) (type default))
+    (uuid 01ae2c4a-0081-4093-932e-45755ea53691)
+  )
   (wire (pts (xy 46.99 166.37) (xy 48.26 166.37))
     (stroke (width 0) (type default))
     (uuid 0afabf2b-dab4-4a9a-9a07-c110fd4cd41c)
@@ -1264,6 +1269,10 @@
   (wire (pts (xy 153.67 49.53) (xy 153.67 46.99))
     (stroke (width 0) (type default))
     (uuid 0c330577-9a7b-4393-9724-8ce745c5891c)
+  )
+  (wire (pts (xy 154.94 99.06) (xy 144.78 99.06))
+    (stroke (width 0) (type default))
+    (uuid 1efb718b-ae84-4cb5-be53-0e1ce239bcfd)
   )
   (wire (pts (xy 247.65 69.85) (xy 246.38 69.85))
     (stroke (width 0) (type default))
@@ -1289,7 +1298,7 @@
     (stroke (width 0) (type default))
     (uuid 5d017134-45c5-49fc-ba5b-3b5d784e975d)
   )
-  (wire (pts (xy 143.51 99.06) (xy 139.7 99.06))
+  (wire (pts (xy 134.62 99.06) (xy 130.81 99.06))
     (stroke (width 0) (type default))
     (uuid 5e408502-62fd-4bbd-b34e-ad356507bfac)
   )
@@ -1309,15 +1318,15 @@
     (stroke (width 0) (type default))
     (uuid 67115e60-e3f3-45ae-925c-952d16f1f4d6)
   )
-  (wire (pts (xy 119.38 99.06) (xy 128.27 99.06))
+  (wire (pts (xy 154.94 93.98) (xy 154.94 96.52))
     (stroke (width 0) (type default))
-    (uuid 6d2b1895-6e86-4216-8628-ff06f237ba18)
+    (uuid 70e2bd1f-b55f-4aab-8d5e-2672865a6ad3)
   )
   (wire (pts (xy 119.38 41.91) (xy 128.27 41.91))
     (stroke (width 0) (type default))
     (uuid 7633c616-f63d-46ae-89d2-d356fa64955d)
   )
-  (wire (pts (xy 151.13 99.06) (xy 153.67 99.06))
+  (wire (pts (xy 142.24 99.06) (xy 144.78 99.06))
     (stroke (width 0) (type default))
     (uuid 7b4f2644-692d-43c0-93ba-e30d7ace4e52)
   )
@@ -1328,10 +1337,6 @@
   (wire (pts (xy 139.7 69.85) (xy 128.27 69.85))
     (stroke (width 0) (type default))
     (uuid 812b6aee-ca84-4cdd-965b-ad11d6a076e7)
-  )
-  (wire (pts (xy 161.29 99.06) (xy 153.67 99.06))
-    (stroke (width 0) (type default))
-    (uuid 81e03d2e-4628-411e-babe-c96952935938)
   )
   (wire (pts (xy 81.28 149.86) (xy 83.82 149.86))
     (stroke (width 0) (type default))
@@ -1421,17 +1426,13 @@
     (stroke (width 0) (type default))
     (uuid df223dc6-e7de-47a7-8a24-fe0275512601)
   )
-  (wire (pts (xy 128.27 99.06) (xy 139.7 99.06))
+  (wire (pts (xy 119.38 99.06) (xy 130.81 99.06))
     (stroke (width 0) (type default))
     (uuid e56d312f-c320-4093-b278-17ec2f5d39f5)
   )
   (wire (pts (xy 213.36 97.79) (xy 220.98 97.79))
     (stroke (width 0) (type default))
     (uuid ec94c830-21df-4438-aa8f-906f6652bbe3)
-  )
-  (wire (pts (xy 153.67 106.68) (xy 153.67 104.14))
-    (stroke (width 0) (type default))
-    (uuid eea96fb8-3073-4b0f-9519-6d6f71156bfd)
   )
   (wire (pts (xy 81.28 149.86) (xy 81.28 157.48))
     (stroke (width 0) (type default))
@@ -1529,11 +1530,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "D10" (shape input) (at 161.29 99.06 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "D10" (shape input) (at 111.76 99.06 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6697ed28-ab60-489e-b0f9-9ef20f20f407)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 167.8848 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 105.1652 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "D6" (shape input) (at 257.81 69.85 0) (fields_autoplaced)
@@ -1653,23 +1654,23 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V") (at 153.67 101.6 0) (unit 1)
+  (symbol (lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V") (at 144.78 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09ac26d1-68df-4a5b-bf02-a8b61429848d)
-    (property "Reference" "C6" (at 155.9941 100.9626 0)
+    (property "Reference" "C6" (at 147.1041 100.9626 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7uF" (at 158.75 102.87 0)
+    (property "Value" "4.7uF" (at 149.86 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 151.13 106.68 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 142.24 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "" (at 153.67 101.6 0)
+    (property "Datasheet" "" (at 144.78 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cb8adda0-acf1-44fa-b0d5-dec77dc2fecb))
-    (pin "2" (uuid 81f71e34-ec46-4b49-9472-aeae7ffb9fca))
+    (pin "1" (uuid a1c073c8-f370-4c66-8910-ae3e000d470d))
+    (pin "2" (uuid 6cff981f-babf-448d-9b03-7d595d3aea5e))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -1704,22 +1705,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 153.67 106.68 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 144.78 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14c60c0f-2136-4855-a472-ffa0671c7e12)
-    (property "Reference" "#PWR030" (at 153.67 113.03 0)
+    (property "Reference" "#PWR030" (at 144.78 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 153.67 110.8155 0)
+    (property "Value" "GND" (at 144.78 108.2755 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 153.67 106.68 0)
+    (property "Footprint" "" (at 144.78 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 153.67 106.68 0)
+    (property "Datasheet" "" (at 144.78 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f25df496-d2f0-4675-a5a9-e12bfeab6280))
+    (pin "1" (uuid 3e73bf30-2157-4100-9916-6b84df001709))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -1769,7 +1770,7 @@
     (property "Datasheet" "" (at 128.27 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ac7cb21-bb16-4e4e-a542-326530c36cf2))
+    (pin "1" (uuid dc8eb0d3-bb49-41d3-928f-aa417eaf8024))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -1794,7 +1795,7 @@
     (property "Datasheet" "~" (at 88.9 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5487922e-4f8c-4002-962e-447a9348640c))
+    (pin "1" (uuid 88b5631c-3f34-4f36-bf2d-026ebe746b36))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -1844,7 +1845,7 @@
     (property "Datasheet" "" (at 119.38 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5658bd92-2af8-4a54-b689-eac546d41385))
+    (pin "1" (uuid 1e5a1e10-5417-4f47-9195-0f154658185c))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -1854,24 +1855,24 @@
     )
   )
 
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 114.3 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 160.02 99.06 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 28fc8f1d-f40a-4aa5-ac85-1aa06b55f9e0)
-    (property "Reference" "J3" (at 113.665 92.2401 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "J3" (at 164.592 100.3387 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Analog Output" (at 113.665 94.1611 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "Analog Output" (at 164.592 98.4177 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 114.3 99.06 0)
+    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 160.02 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 114.3 99.06 0)
+    (property "Datasheet" "~" (at 160.02 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid 975f1575-7741-48aa-9099-285da51ea513))
-    (pin "T" (uuid 21e4abe7-3e4f-4d8e-a27e-e7bd78544127))
-    (pin "TN" (uuid 2a979fe0-9819-4be8-89b9-8d767eb59210))
+    (pin "S" (uuid a01fb4b0-0dae-428e-b88f-b6f7373424f4))
+    (pin "T" (uuid ed492dd2-8ec7-4fca-a0cd-929ebad5f902))
+    (pin "TN" (uuid d8734141-2300-4937-962e-f7b3881a09c5))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -1896,7 +1897,7 @@
     (property "Datasheet" "" (at 128.27 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fce0950a-1739-4e3d-be9f-80b98bb31222))
+    (pin "1" (uuid 560a2a8c-a76e-4e26-bda2-fae79121402f))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2032,8 +2033,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 128.27 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90ea20dd-11b0-47cc-9bd1-768abaee4b9b))
-    (pin "2" (uuid e8226854-3bdf-4fcd-8ae7-ed8783d740e8))
+    (pin "1" (uuid f237917b-5e23-4f22-8493-2db0daac25e4))
+    (pin "2" (uuid dfff809e-e561-4f57-a427-89e3b64395ad))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2089,8 +2090,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 142.24 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25f8991b-de33-416a-9ec3-d5a4993c3b9f))
-    (pin "2" (uuid a642b39f-2fde-4b45-ad3f-d1ba9dd22ff3))
+    (pin "1" (uuid 59916729-c78e-4a79-ac9f-03e4e974e57f))
+    (pin "2" (uuid aa739213-6787-472e-911d-faf353e2c73b))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2100,29 +2101,29 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 128.27 102.87 270) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 119.38 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3546ddbc-3fce-4fac-85c5-adf674e52ec1)
-    (property "Reference" "D6" (at 130.302 102.2263 90)
+    (property "Reference" "D6" (at 121.412 102.2263 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BAT43" (at 130.302 104.1473 90)
+    (property "Value" "BAT43" (at 121.412 104.1473 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 128.27 102.87 0)
+    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 119.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 128.27 102.87 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 119.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 128.27 102.87 0)
+    (property "Sim.Device" "D" (at 119.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 128.27 102.87 0)
+    (property "Sim.Pins" "1=K 2=A" (at 119.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a536492b-e221-45b7-ba23-3abce512e943))
-    (pin "2" (uuid db2b0e60-04a6-4886-acb1-9114e60ab3e6))
+    (pin "1" (uuid 34623435-888d-4cba-943d-ca99113959da))
+    (pin "2" (uuid b8eae47d-447c-466d-9baf-15a2b4c5ca9f))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2209,31 +2210,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 119.38 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4df99900-19d7-4938-abbe-73ab9df8eba4)
-    (property "Reference" "#PWR024" (at 125.73 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 122.555 96.8368 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 119.38 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 119.38 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9cf2873d-c89d-4c12-a3d7-5c40337d1902))
-    (instances
-      (project "sc_awonak"
-        (path "/3202d24d-726e-4f07-84c0-3006af20163a"
-          (reference "#PWR024") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 213.36 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ee317eb-8da3-4863-8b78-250e1927e1e0)
@@ -2274,7 +2250,7 @@
     (property "Datasheet" "~" (at 83.82 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bab28dbc-0d3f-447e-875a-b5c0e28a250c))
+    (pin "1" (uuid dc66f66f-06ea-41a8-a85c-64226db4e85b))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2284,23 +2260,23 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 139.7 110.49 90) (unit 1)
+  (symbol (lib_id "Device:LED") (at 130.81 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5693b0f9-d917-432c-83d2-53ae490c9e93)
-    (property "Reference" "D7" (at 142.621 111.4338 90)
+    (property "Reference" "D7" (at 133.731 111.4338 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (at 142.621 113.3548 90)
+    (property "Value" "LED" (at 133.731 113.3548 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D3.0mm" (at 139.7 110.49 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 130.81 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 110.49 0)
+    (property "Datasheet" "~" (at 130.81 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d88e5734-5528-4c81-99d3-bc2e8b98c584))
-    (pin "2" (uuid 76f742f7-3153-4204-b000-03741b1453cb))
+    (pin "1" (uuid 3504a584-aa72-4912-88bd-8e4b7298d6e8))
+    (pin "2" (uuid e0eabbc4-7b2c-40e4-acd1-0f8839d5bd1a))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2480,8 +2456,8 @@
     (property "Datasheet" "~" (at 139.7 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd47c84f-c589-4983-b295-02974a7905e2))
-    (pin "2" (uuid beec177a-f371-4a12-83a9-69befc738cc8))
+    (pin "1" (uuid 355573b5-dd1c-40e5-ae0e-bb1f61a3e9ea))
+    (pin "2" (uuid 995f423c-9c5e-4269-b331-a07e0f7df05b))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2512,8 +2488,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 142.24 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6dd14e49-40a7-4d38-a879-d5f77703fc94))
-    (pin "2" (uuid 0d5c8c80-8ea8-4026-922c-98731e9744e2))
+    (pin "1" (uuid 570b33ec-3797-4e71-b8ca-ed36cbff130a))
+    (pin "2" (uuid 94e3f622-838e-4ff9-9f4e-856b34c49de4))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2523,22 +2499,22 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:+5V") (at 128.27 91.44 0) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:+5V") (at 119.38 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d23b2c2-13ff-4125-81ed-afbee5e74fb0)
-    (property "Reference" "#PWR028" (at 128.27 95.25 0)
+    (property "Reference" "#PWR028" (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 128.27 87.9381 0)
+    (property "Value" "+5V" (at 119.38 87.9381 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 128.27 91.44 0)
+    (property "Footprint" "" (at 119.38 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 128.27 91.44 0)
+    (property "Datasheet" "" (at 119.38 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ba2acb5-5bc2-4403-8eb9-80792135fc86))
+    (pin "1" (uuid f5da0c6a-e525-43cd-8007-59bbf2389264))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2548,22 +2524,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 139.7 114.3 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 130.81 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7429e5e0-d2e8-443b-adbb-0a14d4e15e07)
-    (property "Reference" "#PWR027" (at 139.7 120.65 0)
+    (property "Reference" "#PWR027" (at 130.81 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 139.7 118.4355 0)
+    (property "Value" "GND" (at 130.81 118.4355 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 139.7 114.3 0)
+    (property "Footprint" "" (at 130.81 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 139.7 114.3 0)
+    (property "Datasheet" "" (at 130.81 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5a1f682-8bf5-4501-ada3-1d24834dcb43))
+    (pin "1" (uuid 00d49d05-30bb-47c7-a26a-e63a9e11388c))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2591,8 +2567,8 @@
     (property "Display" "0.1uF" (at 155.9941 45.7336 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "1" (uuid 0d36229c-1767-407d-ac67-24442a0c9b47))
-    (pin "2" (uuid 76773e3b-42b3-4a2e-bb5f-4e7c5d97ae2f))
+    (pin "1" (uuid c4bb7141-598f-42ae-8978-3f94a39da4cd))
+    (pin "2" (uuid 4d0ac4fe-7e7e-4c07-b84b-b6adfcf6d8be))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2617,9 +2593,9 @@
     (property "Datasheet" "~" (at 114.3 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid 69c925fa-9890-44e8-9022-282ec43acc0d))
-    (pin "T" (uuid 6c7814ea-5bf4-4337-8015-21828317d26c))
-    (pin "TN" (uuid 6a52e976-9bf4-4555-b2fd-0271a9940ef2))
+    (pin "S" (uuid 2fbf600f-cbbb-4d2b-b220-a05c3798ea72))
+    (pin "T" (uuid 8b17d372-86bf-4c7e-8839-dc9c90a11f8c))
+    (pin "TN" (uuid a391e90a-7dfa-4e18-b001-6905e0910f89))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2644,8 +2620,8 @@
     (property "Datasheet" "~" (at 135.89 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 021a8738-0235-4879-b237-9d81fa708888))
-    (pin "2" (uuid 92d58fc9-dd6e-4f5b-800a-7f3d278d188b))
+    (pin "1" (uuid 1325f353-6404-461d-9f95-3a5456b0dc8e))
+    (pin "2" (uuid 98cf43ff-8e28-4727-80f7-6e7f626564b2))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2695,7 +2671,7 @@
     (property "Datasheet" "" (at 153.67 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 89325270-eb9b-447b-9bdd-0551f602e7dc))
+    (pin "1" (uuid ffb55249-6c68-4cfc-a41e-ac2ba746d62e))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2720,9 +2696,9 @@
     (property "Datasheet" "~" (at 114.3 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid ff79b2b8-7406-4e93-8e3f-55c9277f314d))
-    (pin "T" (uuid 01e1b6b8-9909-4d83-9c98-3e022ba751a8))
-    (pin "TN" (uuid ff9bfcc5-206d-4729-befb-82d004db31ea))
+    (pin "S" (uuid 54a0f565-c1b4-4fc6-b522-62a0b8404553))
+    (pin "T" (uuid 7953bd06-bc2e-4c63-94c9-560ecf1a9926))
+    (pin "TN" (uuid e533b0d5-3b75-4c0c-9b3a-cc5a3928195b))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2753,8 +2729,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 128.27 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba2c9135-3840-4a9c-b316-e674a34fe03c))
-    (pin "2" (uuid eb8d4b47-d6af-4781-9a26-4dee5e4428df))
+    (pin "1" (uuid 5dc317c2-5210-443f-a4a8-7bda3916b4ea))
+    (pin "2" (uuid a1e73d5d-d668-4172-bd99-a0c3a052957a))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2764,22 +2740,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 128.27 106.68 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 119.38 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c1c38dd-c4a7-4166-85cf-52ef793447fd)
-    (property "Reference" "#PWR029" (at 128.27 113.03 0)
+    (property "Reference" "#PWR029" (at 119.38 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 128.27 110.8155 0)
+    (property "Value" "GND" (at 119.38 110.8155 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 128.27 106.68 0)
+    (property "Footprint" "" (at 119.38 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 128.27 106.68 0)
+    (property "Datasheet" "" (at 119.38 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ad8e6e7-4ee6-4e34-a2aa-05688a3b585e))
+    (pin "1" (uuid f2335b0a-2a13-43c2-8bbe-8391fbbf2414))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2909,7 +2885,7 @@
     (property "Datasheet" "" (at 142.24 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91077f08-d907-4b8f-a814-b563dfd293a7))
+    (pin "1" (uuid aaddda1d-74cf-415e-a365-6e04116a9211))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2959,8 +2935,8 @@
     (property "Datasheet" "~" (at 128.27 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8500b804-0a9d-4aa2-bac8-5867de3dfd97))
-    (pin "2" (uuid 7e258c46-acdc-48e6-bb4e-5df266d376fd))
+    (pin "1" (uuid 20488eee-7859-4cd3-a6ec-e06778e62736))
+    (pin "2" (uuid 1474a893-05e6-4c4b-a4da-5205e2dc03ad))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -2985,8 +2961,8 @@
     (property "Datasheet" "~" (at 147.32 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8ce46b0-dd07-4876-8a80-75fa12a63972))
-    (pin "2" (uuid 6eb5efc5-b231-48d8-8cdf-5875a7265346))
+    (pin "1" (uuid 22cafc0d-31c6-4952-8965-91896182b65e))
+    (pin "2" (uuid fead92c2-3c81-4ba3-bfc4-6cd55ff381fa))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3050,23 +3026,23 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 147.32 99.06 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 138.43 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94f21bf1-788e-4a8a-ac9f-28d4bd387421)
-    (property "Reference" "R10" (at 147.32 95.0341 90)
+    (property "Reference" "R10" (at 138.43 95.0341 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "470" (at 147.32 96.9551 90)
+    (property "Value" "470" (at 138.43 96.9551 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 147.32 100.838 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 138.43 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 147.32 99.06 0)
+    (property "Datasheet" "~" (at 138.43 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a441e2a-ff96-465a-9125-5cb09ad640a4))
-    (pin "2" (uuid 354a546a-c634-4bef-a476-0d0c5553e822))
+    (pin "1" (uuid c5eb2944-977f-4863-8a4b-521bc1fcec77))
+    (pin "2" (uuid d9d93751-c9fe-480b-b867-0da3df24a9da))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3091,7 +3067,7 @@
     (property "Datasheet" "" (at 119.38 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02a1cffd-a41b-40e9-b967-0ee4edf24a42))
+    (pin "1" (uuid 2017ac01-e640-47e8-83f3-ce4a1bae0112))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3116,7 +3092,7 @@
     (property "Datasheet" "~" (at 88.9 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79425a32-e621-40c1-8b45-0510b8621c22))
+    (pin "1" (uuid dd8f5216-f3c5-4457-bcf5-730508b8516e))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3167,7 +3143,7 @@
     (property "Datasheet" "" (at 86.36 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2a02bfc-908e-4c2c-9acc-9accfb6ea159))
+    (pin "1" (uuid a0d584a6-cf28-478b-a410-631857229444))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3270,7 +3246,7 @@
     (property "Datasheet" "~" (at 83.82 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1d5d037-15a8-4ecc-a275-26fd05483d72))
+    (pin "1" (uuid 4c14e41a-5d63-40ee-a193-921cddc56d54))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3446,23 +3422,23 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 139.7 102.87 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 130.81 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c333e716-e2a8-413a-a7f4-5c132252f834)
-    (property "Reference" "R9" (at 141.478 102.2263 0)
+    (property "Reference" "R9" (at 132.588 102.2263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22k" (at 141.478 104.1473 0)
+    (property "Value" "22k" (at 132.588 104.1473 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 137.922 102.87 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 129.032 102.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 102.87 0)
+    (property "Datasheet" "~" (at 130.81 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 89f242ff-02b5-4a75-b4f6-561837ebe3cd))
-    (pin "2" (uuid 9431855d-2064-4715-9ec3-c4577b5d17d5))
+    (pin "1" (uuid 8baff58b-6d74-44cf-a192-3b6a5c0b53b4))
+    (pin "2" (uuid c625e13a-6821-4a7c-a601-697eda1e0d7f))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3516,7 +3492,7 @@
     (property "Datasheet" "" (at 128.27 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8685b2ab-2fcf-4826-b8b9-17ceeb32b049))
+    (pin "1" (uuid f1fd75d0-0f28-433b-85a3-682fe95d37a3))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3546,6 +3522,31 @@
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
           (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 154.94 93.98 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d68709d1-3d0f-44d9-be6e-1b43c3bc92d6)
+    (property "Reference" "#PWR024" (at 154.94 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 154.94 90.4781 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 154.94 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 027163d4-6a91-447e-a88e-15a3a9b156f9))
+    (instances
+      (project "sc_awonak"
+        (path "/3202d24d-726e-4f07-84c0-3006af20163a"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3670,7 +3671,7 @@
     (property "Datasheet" "" (at 142.24 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 407e543c-9c56-4e5c-b22d-5c7f8ff8669a))
+    (pin "1" (uuid 49ebe7c4-eeb3-4702-849c-a52596c6c9f5))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
@@ -3761,29 +3762,29 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 128.27 95.25 270) (unit 1)
+  (symbol (lib_id "Diode:1N4148") (at 119.38 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9165eef-d413-43d8-bfe8-0e22f4932dc6)
-    (property "Reference" "D5" (at 130.302 94.6063 90)
+    (property "Reference" "D5" (at 121.412 94.6063 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BAT43" (at 130.302 96.5273 90)
+    (property "Value" "BAT43" (at 121.412 96.5273 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 128.27 95.25 0)
+    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 128.27 95.25 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 128.27 95.25 0)
+    (property "Sim.Device" "D" (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 128.27 95.25 0)
+    (property "Sim.Pins" "1=K 2=A" (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8565f401-2874-4c9b-be43-2eb0bcd477ec))
-    (pin "2" (uuid 4c9013d5-094a-4623-9dc3-531f6527a492))
+    (pin "1" (uuid 38044505-ad73-4687-a779-05180e505f00))
+    (pin "2" (uuid fd2c6315-fcce-4198-b8d4-019da60eb80c))
     (instances
       (project "sc_awonak"
         (path "/3202d24d-726e-4f07-84c0-3006af20163a"
