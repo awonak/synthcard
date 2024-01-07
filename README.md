@@ -50,5 +50,6 @@ To assist with assembly, you can use the interactive [ibom.html page](https://ht
 
 | Revision | Date | Notes
 |-|-|-|
+| ver0.3 | 2024-01-07 | - Change: minor silkscreen updates<br> - Change: made 5v trace larger
 | ver0.2 | 2023-12-28 | - Fix: CV Output circuit was backwards<br> - Change: Rename capacitor footprint values<br> - Change: Improved LED footprint values<br> - Change: Add linktr.ee and social logos 
 | ver0.1 | 2023-12-18 | Initial release
