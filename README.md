@@ -9,6 +9,9 @@ This is an iteration of the SynthCard.com community from [Benjie Jiao](https://g
 
 ![SynthCard 3D](sc_awonak/synthcard_3d.png "SynthCard 3D")
 
+## Demo
+
+https://youtu.be/VIV_02_Mi_E
 
 # Bill of Materials
 
