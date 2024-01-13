@@ -13,7 +13,7 @@ This is an iteration of the SynthCard.com community from [Benjie Jiao](https://g
 
 https://youtu.be/VIV_02_Mi_E
 
-# Bill of Materials
+## Bill of Materials
 
 To assist with assembly, you can use the interactive [ibom.html page](https://htmlpreview.github.io/?https://github.com/awonak/synthcard/blob/main/sc_awonak/bom/ibom.html) to view a part placement guide.
 
@@ -33,7 +33,7 @@ To assist with assembly, you can use the interactive [ibom.html page](https://ht
 | J3, J4, J5 | 1 | Thonkiconn 3.5mm Mono Jack | https://www.thonk.co.uk/shop/thonkiconn/ |
 | A1 | 1 | Arduino Nano | [https://www.amazon.com/](https://www.amazon.com/LAFVIN-Board-ATmega328P-Micro-Controller-Arduino/dp/B07G99NNXL/ref=sr_1_1_sspa?crid=110SU9VW3VQB6&keywords=arduino+nano&qid=1703001737&sprefix=arduino+nano%2Caps%2C117&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
 
-# Pinout
+## Pinout
 
 | Arduino Pin | Function |
 |-|-|
@@ -46,8 +46,31 @@ To assist with assembly, you can use the interactive [ibom.html page](https://ht
 | D5 | Slider 3 LED |
 | D6 | Slider 2 LED |
 | D9 | Slider 1 LED |
-| D10 | Digital Input |
-| D11 | Digital Output |
+| D10 | Digital Output |
+| D11 | Digital Input |
+
+## Code Example
+
+The most basic program we can write for the Synth Card is a Blink program. Using the pin guide above, we can see the digital output is `D10` which has an LED connected to the circuit. We can use this pin to blink the LED. 
+
+```cpp
+#define CV_OUT 10  // CV Output with LED
+
+void setup() {
+  pinMode(CV_OUT, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(CV_OUT, HIGH);
+  delay(500);
+  digitalWrite(CV_OUT, LOW);
+  delay(500);
+}
+```
+
+To test out all of the inputs, outputs, and LEDs, you can flash the [HardwareTest](firmware/HardwareTest/HardwareTest.ino) script.
+
+To see additional example firmware scripts, head over to [firmware](firmware/).
 
 ## Hardware Revision History
 
