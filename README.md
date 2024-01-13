@@ -1,17 +1,22 @@
-# synthcard
+# SynthCard
+
 Synth Card for Adam Wonak
 
 This synthcard is a circuit inspired by [Hagiwo's](https://www.youtube.com/@HAGIWO) SyncLFO and Bezier Curve, and the [Modulove](https://modulove.io/) Sync LFO. I chose this design because of the seemingly endless creative firmware scripts I have written for the [Modulove Sync LFO](https://awonak.github.io/HagiwoModulove/synclfo/), so I wanted to make a business card to highlight this circuit design with some fun tweaks.
 
 This is an iteration of the SynthCard.com community from [Benjie Jiao](https://github.com/benjiao). 
 
-![SynthCard blank](hardware/synthcard.png "SynthCard")
+![SynthCard front](synthcard_front.png "SynthCard front")
 
-![SynthCard 3D](hardware/synthcard_3d.png "SynthCard 3D")
+![SynthCard back](synthcard_back.png "SynthCard back")
 
-## Demo
+![SynthCard 3D](synthcard_3d.png "SynthCard 3D")
 
-https://youtu.be/VIV_02_Mi_E
+## Demo Videos
+
+4 Step Sequencer - https://youtu.be/VIV_02_Mi_E
+
+ADSR - https://youtu.be/wfQtB7HLKf4
 
 ## Bill of Materials
 
@@ -31,7 +36,7 @@ To assist with assembly, you can use the interactive [ibom.html page](https://ht
 | R10 | 1 | 470 Resistor | https://www.mouser.com/ProductDetail/660-MF1-4DCT52R4700F |
 | VR1, VR2, VR3, VR4 | 4 | 20MM Slide Potentiometer 100K | https://www.mouser.com/ProductDetail/652-PTL20-15R0-104B1 |
 | J3, J4, J5 | 1 | Thonkiconn 3.5mm Mono Jack | https://www.thonk.co.uk/shop/thonkiconn/ |
-| A1 | 1 | Arduino Nano | [https://www.amazon.com/](https://www.amazon.com/LAFVIN-Board-ATmega328P-Micro-Controller-Arduino/dp/B07G99NNXL/ref=sr_1_1_sspa?crid=110SU9VW3VQB6&keywords=arduino+nano&qid=1703001737&sprefix=arduino+nano%2Caps%2C117&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
+| A1 | 1 | Arduino Nano | [https://www.amazon.com/...](https://www.amazon.com/LAFVIN-Board-ATmega328P-Micro-Controller-Arduino/dp/B07G99NNXL/ref=sr_1_1_sspa?crid=110SU9VW3VQB6&keywords=arduino+nano&qid=1703001737&sprefix=arduino+nano%2Caps%2C117&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
 
 ## Pinout
 
