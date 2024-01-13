@@ -2099,10 +2099,15 @@
       (net 32 "Net-(VR2B-2)") (pinfunction "2") (pintype "passive") (tstamp ecda9542-646f-489f-995b-f093384eeb2e))
     (pad "P3" thru_hole circle (at -1.24968 -14.9352 90) (size 1.651 1.651) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 35 "+5V") (pinfunction "3") (pintype "passive") (tstamp 6c663b9c-c822-472b-b895-18e20d239faa))
-    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP"
+    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP" hide
       (offset (xyz 0 0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/models/PTL20-10R1-102B2.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 90))
     )
   )
 
@@ -6625,10 +6630,15 @@
       (net 34 "Net-(VR4B-2)") (pinfunction "2") (pintype "passive") (tstamp 5d113d41-4d32-4c61-a248-13de4c97ee6a))
     (pad "P3" thru_hole circle (at -1.24968 -14.9352 90) (size 1.651 1.651) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 35 "+5V") (pinfunction "3") (pintype "passive") (tstamp 1e9e27aa-d158-40f1-bc65-e8cacbf0815d))
-    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP"
+    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP" hide
       (offset (xyz 0 0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/models/PTL20-10R1-102B2.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 90))
     )
   )
 
@@ -7096,10 +7106,15 @@
       (net 31 "Net-(VR1B-2)") (pinfunction "2") (pintype "passive") (tstamp 48a0205e-94ff-4ec1-ae84-08b6e2938106))
     (pad "P3" thru_hole circle (at -1.24968 -14.9352 90) (size 1.651 1.651) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 35 "+5V") (pinfunction "3") (pintype "passive") (tstamp c3e4f384-e29b-4697-bfae-07542668325f))
-    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP"
+    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP" hide
       (offset (xyz 0 0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/models/PTL20-10R1-102B2.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -7471,10 +7486,15 @@
       (net 33 "Net-(VR3B-2)") (pinfunction "2") (pintype "passive") (tstamp d30f39d2-b36e-4b9f-bd69-b08b5368e3e7))
     (pad "P3" thru_hole circle (at -1.24968 -14.9352 90) (size 1.651 1.651) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 35 "+5V") (pinfunction "3") (pintype "passive") (tstamp 80a28a10-7d30-4304-bbdf-35c04a7264bb))
-    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP"
+    (model "C:/Users/Adam/Downloads/product_3dcad_rs201111j011_en_3e73cbc73e/RS201111J011.STEP" hide
       (offset (xyz 0 0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/models/PTL20-10R1-102B2.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 90))
     )
   )
 
