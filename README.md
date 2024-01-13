@@ -5,9 +5,9 @@ This synthcard is a circuit inspired by [Hagiwo's](https://www.youtube.com/@HAGI
 
 This is an iteration of the SynthCard.com community from [Benjie Jiao](https://github.com/benjiao). 
 
-![SynthCard blank](sc_awonak/synthcard.png "SynthCard")
+![SynthCard blank](hardware/synthcard.png "SynthCard")
 
-![SynthCard 3D](sc_awonak/synthcard_3d.png "SynthCard 3D")
+![SynthCard 3D](hardware/synthcard_3d.png "SynthCard 3D")
 
 ## Demo
 
@@ -15,7 +15,7 @@ https://youtu.be/VIV_02_Mi_E
 
 ## Bill of Materials
 
-To assist with assembly, you can use the interactive [ibom.html page](https://htmlpreview.github.io/?https://github.com/awonak/synthcard/blob/main/sc_awonak/bom/ibom.html) to view a part placement guide.
+To assist with assembly, you can use the interactive [ibom.html page](https://htmlpreview.github.io/?https://github.com/awonak/synthcard/blob/main/hardware/bom/ibom.html) to view a part placement guide.
 
 | Reference(s) | Qty | Value | Supplier Link |
 |-|-|-|-|
