@@ -2,9 +2,9 @@
 
 Synth Card for Adam Wonak
 
-This synthcard is a circuit inspired by [Hagiwo's](https://www.youtube.com/@HAGIWO) SyncLFO and Bezier Curve, and the [Modulove](https://modulove.io/) Sync LFO. I chose this design because of the seemingly endless creative firmware scripts I have written for the [Modulove Sync LFO](https://awonak.github.io/HagiwoModulove/synclfo/), so I wanted to make a business card to highlight this circuit design with some fun tweaks.
+This synthcard is a circuit inspired by [Hagiwo's](https://www.youtube.com/@HAGIWO) SyncLFO and Bezier Curve, and the [Modulove](https://modulove.io/) MVMT. I chose this design because of the seemingly endless creative firmware scripts I have written for the [Modulove Sync LFO](https://awonak.github.io/HagiwoModulove/synclfo/), so I wanted to make a business card to highlight this circuit design with some fun tweaks.
 
-This is an iteration of the SynthCard.com community from [Benjie Jiao](https://github.com/benjiao). 
+This is an iteration of the [SynthCard.com](https://synthcard.com) community from [Benjie Jiao](https://github.com/benjiao). 
 
 ![SynthCard front](synthcard_front.png "SynthCard front")
 
@@ -84,3 +84,7 @@ To see additional example firmware scripts, head over to [firmware](firmware/).
 | ver0.3 | 2024-01-07 | - Change: minor silkscreen updates<br> - Change: made 5v trace larger
 | ver0.2 | 2023-12-28 | - Fix: CV Output circuit was backwards<br> - Change: Rename capacitor footprint values<br> - Change: Improved LED footprint values<br> - Change: Add linktr.ee and social logos 
 | ver0.1 | 2023-12-18 | Initial release
+
+## Buy a SynthCard Kit
+
+<a href="https://www.tindie.com/stores/awonak/?ref=offsite_badges&utm_source=sellers_awonak&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
