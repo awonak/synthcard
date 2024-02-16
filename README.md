@@ -85,6 +85,10 @@ To see additional example firmware scripts, head over to [firmware](firmware/).
 | ver0.2 | 2023-12-28 | - Fix: CV Output circuit was backwards<br> - Change: Rename capacitor footprint values<br> - Change: Improved LED footprint values<br> - Change: Add linktr.ee and social logos 
 | ver0.1 | 2023-12-18 | Initial release
 
+## Enclosure
+
+[https://cad.onshape.com/documents/56a3cdf5a05401551b0a6543/w/14efa768039d40ef0ec5aaac/e/f128ee10c6516a251dc2fe2a](OnShape 3D printer enclosure design)
+
 ## Buy a SynthCard Kit
 
 <a href="https://www.tindie.com/stores/awonak/?ref=offsite_badges&utm_source=sellers_awonak&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
