@@ -87,7 +87,8 @@ To see additional example firmware scripts, head over to [firmware](firmware/).
 
 ## Enclosure
 
-[OnShape 3D printer enclosure design](https://cad.onshape.com/documents/56a3cdf5a05401551b0a6543/w/14efa768039d40ef0ec5aaac/e/f128ee10c6516a251dc2fe2a)
+[OnShape 3D printer enclosure design](https://cad.onshape.com/documents/56a3cdf5a05401551b0a6543/v/da0e57abf21331cdf97fa6e6/e/f128ee10c6516a251dc2fe2a?renderMode=0&uiState=65d3f5d7b21ea63a43821365)
+
 
 ## Buy a SynthCard Kit
 
