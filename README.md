@@ -26,7 +26,7 @@ To assist with assembly, you can use the interactive [ibom.html page](https://ht
 |-|-|-|-|
 | C1, C2, C3, C4, C5 | 5 | 0.1uF Capacitor  | https://www.mouser.com/ProductDetail/594-K104M15X7RF53L2 |
 | C6 | 1 | 4.7uF Capacitor | https://www.mouser.com/ProductDetail/810-FG14X5R1H475KRT6 |
-| D1, D2, D3, D4, D5, D6 | 6 | BAT43 Schottky Diode | https://www.mouser.com/ProductDetail/511-BAT43 |
+| D1, D2, D3, D4, D5, D6 | 6 | 1N5817 Schottky Diode | https://www.mouser.com/ProductDetail/833-1N5817-TP |
 | D7 | 1 | 3MM LED | https://www.mouser.com/ProductDetail/604-WP3A8ID |
 | R1, R2, R3, R4 | 4 | 1K Resistor | https://www.mouser.com/ProductDetail/660-MF1-4DCT52R1001F |
 | R11, R12, R13, R14 | 4 | 1K Resistor (LED Brightness) | https://www.mouser.com/ProductDetail/660-MF1-4DCT52R1001F |
