@@ -14,7 +14,7 @@ This is an iteration of the [SynthCard.com](https://synthcard.com) community fro
 
 ## Demo Videos
 
-4 Step Sequencer - https://youtu.be/VIV_02_Mi_E
+4 Step Sequencer - https://youtu.be/5_vGYVA8IQ8
 
 ADSR - https://youtu.be/wfQtB7HLKf4
 
