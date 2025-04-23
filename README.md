@@ -18,6 +18,12 @@ This is an iteration of the [SynthCard.com](https://synthcard.com) community fro
 
 ADSR - https://youtu.be/wfQtB7HLKf4
 
+## Synth Card Built by Friends 
+
+[[@benjiaomodular](https://www.youtube.com/@benjiaomodular)] - https://youtube.com/shorts/xnUs8CACG_8
+
+[[@bildpunkt](http://on.soundcloud.com/M9RUxw48PaAXDL477)] - https://youtu.be/3e_gjm9oc40
+
 ## Bill of Materials
 
 To assist with assembly, you can use the interactive [ibom.html page](https://htmlpreview.github.io/?https://github.com/awonak/synthcard/blob/main/hardware/bom/ibom.html) to view a part placement guide.
