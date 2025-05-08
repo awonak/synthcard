@@ -93,8 +93,8 @@ To see additional example firmware scripts, head over to [firmware](firmware/).
 
 ## Enclosure
 
-[OnShape 3D printer enclosure design](https://cad.onshape.com/documents/56a3cdf5a05401551b0a6543/v/da0e57abf21331cdf97fa6e6/e/f128ee10c6516a251dc2fe2a)
-
+* Case: [OnShape 3D printer case design](https://cad.onshape.com/documents/56a3cdf5a05401551b0a6543/v/da0e57abf21331cdf97fa6e6/e/f128ee10c6516a251dc2fe2a)
+* Cover: [OnShape 3D printer cover design](https://cad.onshape.com/documents/eee74bc148d4d859dd74c709/w/c0c5180a8fda910a15efede6/e/bb4b46e599de372330158219?renderMode=0&uiState=681d00e47421d42a91637a86) (Designed by [BbartokK](https://bbartokk.bandcamp.com/))
 
 ## Buy a SynthCard Kit
 
